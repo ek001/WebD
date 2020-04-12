@@ -1,138 +1,125 @@
-a {
-    color: #11999E;
-    text-decoration: none;
+#title {
+    background-color: #ff4c68;
+    color: #fff;
 }
 
-body {
-    color: #40514E;
-    margin: 0px;
+#features {
+    padding: 7% 20% 7%;
+    margin: auto;
+
+}
+
+#press {
+    background-color: #ef8172;
     text-align: center;
-    font-family: 'Merriweather', serif;
-    padding-bottom: 0px;
+    padding-bottom: 3%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+
+body {
+    font-family: "Montserrat";
 }
 
 h1 {
-    margin-top: 0px;
-    font-family: 'Sacramento', cursive;
-    font-size: 5.62rem;
-    margin: 50px auto 0 auto;
-    color: #66BFBF;
-    /*rem is root em(1rem is 16px, normally 100% and em are too)*/
-    /*em and % font sizes can change if the root font size like if used in body element is changed*/
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    color: #66BFBF;
-    font-weight: normal;
-    padding-bottom: 10px;
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
-    color: #11999E;
-}
-
-hr {
-    height: 0px;
-    width: 4%;
-    border-style: none;
-    border-top-style: dotted;
-    border-width: 8px;
-    border-color: #EAF6F6;
-    margin: 100px auto 100px;
-}
-
-
-.pro:hover {
-    text-decoration: underline;
-    font-size: 2.75rem;
-}
-
-.bottom-cloud {
-    position: absolute;
-    left: 380px;
-    bottom: 300px;
+    padding: 5%;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 p {
-    color: #40514E;
-    line-height: 2;
+    color: #8f8f8f;
 }
 
-.btn{
-    background-color: #66BFBF;
-    color: #EAF6F6  ;
-    line-height: 5;
-    border-radius: 8px;
-    padding: 10px;
-}
-.btn:hover{
-    background-color: #2BC4AD;
+.carousel-item {
+    padding: 7% 20%;
 }
 
-.bottom-container{
-    background-color: #66BFBF;
-    margin-top: 50px;
-    padding-top: 20px;
-    margin-bottom: 0px;
-    padding-bottom: 5px;
+.container-fluid {
+    padding: 3% 15%;
 }
 
-.copyright{
-    color: #EAF6F6;
+.download-btn {
+    margin: 5% 3% 5% 0%;
 }
 
-.footer-link{
-    margin-right: 50px;
-    margin-left: 50px;
+.featcon {
+    font-size: 4rem;
+    color: #ef8172;
+    margin-bottom: 1rem;
 }
 
-.footer-link:hover{
-    color: #EAF6F6;
+.fas:hover {
+    color: #ff4c68;
 }
 
-.img-code {
-    width: 25%;
-    float: left;
-    margin-right: 30px;
+.feature-box {
+    text-align: center;
+    padding: 5%;
 }
 
-.img-profile {
-    height: 200px;
-    width: 200px;
+.iphone {
+    transform: rotate(25deg);
+    width: 60%;
 }
 
-.img-tech {
-    width: 25%;
-    float: right;
-    margin-left: 30px;
+.navbar {
+    padding: 0 0 4.5rem;
 }
 
-.intro-txt {
-    width: 30%;
-    margin: auto;
+.navbar-brand {
+    font-size: 2.5rem;
+    font-family: "Ubuntu";
+    font-weight: 500;
 }
 
-.middle-container {
-    margin: 100px 0px;
+.nav-item {
+    padding: 0 18px;
 }
 
-.skill-row {
-    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
+.nav-link {
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+    font-weight: 300;
 }
 
-.top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 50px;
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+
 }
 
-#top {
-    background-color: #EAF6F6;
-    position: relative;
-    padding-top: 100px;
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 1.5%;
 }
